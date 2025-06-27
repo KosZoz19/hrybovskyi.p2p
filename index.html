@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hrybovskyi.com</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap" rel="stylesheet">
+  
+</head>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+  });
+</script>
+<body>
+<header class="hero hero-header">
+  <div class="hero-overlay">
+ <h2 class="handwritten" data-aos="fade-down">Источник <span class="p2p">P2P</span></h2>
+
+<div class="hero-title" data-aos="zoom-in">
+  <span class="left">МИНИ</span>
+  <img src="IMG_1361-1.png" alt="Твое фото" class="hero-image">
+  <span class="right">КУРС</span>
+</div>
+
+<a href="#pricing" class="hero-btn" data-aos="fade-up" data-aos-delay="200">
+  <span class="label">Сделай шаг к новой жизни</span>
+  ПЕРЕЙТИ К ТАРИФАМ
+</a>
+
+<p class="hero-bottom-text" data-aos="fade-up" data-aos-delay="400">
+  За 3 дня ты научишься обменивать криптовалюту и<br>
+  зарабатывать на этом <span class="highlight">от 1000 грн в день</span>
+</p>
+  </div>
+  <canvas id="particles-canvas"></canvas>
+</header>
+
+<div class="sticky-bar">
+  <span>🚀 Осталось 26 мест! Успей записаться до конца дня!</span>
+</div>
+
+<section id="for-whom" class="for-whom-section">
+   <canvas id="particles-bg"></canvas>
+  <h2 class="section-title" data-aos="fade-up">Кому подойдёт курс</h2>
+  <div class="audience-grid">
+    <div class="audience-card" data-aos="fade-up" data-aos-delay="100">
+      <span class="emoji">🧑‍💻</span>
+      <p>Новичкам без опыта в крипте</p>
+    </div>
+    <div class="audience-card" data-aos="fade-up" data-aos-delay="200">
+      <span class="emoji">🎯</span>
+      <p>Тем, кто хочет дополнительный доход</p>
+    </div>
+    <div class="audience-card" data-aos="fade-up" data-aos-delay="300">
+      <span class="emoji">📈</span>
+      <p>Тем, кто хочет стартовать свой путь в P2P</p>
+    </div>
+    <div class="audience-card" data-aos="fade-up" data-aos-delay="400">
+      <span class="emoji">📱</span>
+      <p>Тем, кто готов работать с телефона или ноутбука</p>
+    </div>
+  </div>
+</section>
+
+<section id="modules" class="modules-section">
+  <canvas id="modules-particles"></canvas>
+  <h2 class="section-title" data-aos="fade-up">Что вы получите</h2>
+  <div class="modules-grid">
+    <div class="module-card" data-aos="zoom-in" data-aos-delay="100">
+      <h3>📚 Пошаговую систему</h3>
+      <p>Проверенные шаги, которые приведут вас от нуля к результату.</p>
+    </div>
+    <div class="module-card" data-aos="zoom-in" data-aos-delay="200">
+      <h3>📈 Реальные кейсы</h3>
+      <p>Примеры из жизни и практики — никакой воды, только конкретика.</p>
+    </div>
+    <div class="module-card" data-aos="zoom-in" data-aos-delay="300">
+      <h3>⚙️ Инструменты автоматизации</h3>
+      <p>Боты, шаблоны и решения, которые ускорят работу.</p>
+    </div>
+  </div>
+</section>
+
+  <img src="img/preview-course.jpg" alt="Превью курса" class="modules-image" data-aos="zoom-in-up" data-aos-delay="300">
+</section>
+<section id="countdown" class="countdown-section">
+  <canvas id="countdown-canvas"></canvas>
+  <h2 class="countdown-title" data-aos="fade-up">⏳ До закрытия набора:</h2>
+  <div id="timer" class="countdown-timer" data-aos="zoom-in">00:00</div>
+</section>
+
+<section class="pricing-section" id="pricing">
+  <canvas id="pricing-canvas"></canvas>
+  <div class="pricing-overlay">
+    <h2 class="section-title" data-aos="fade-up">💸 Тарифы участия</h2>
+    <div class="pricing-grid">
+      <div class="tariff-card" data-aos="zoom-in">
+        <h3>Базовый</h3>
+        <ul>
+          <li>🎓 Видео с теорией и практикой</li>
+          <li>👥 Комьюнити участников</li>
+          <li>📞 Поддержка 24/7</li>
+          <li>💡 Пошаговые схемы</li>
+        </ul>
+        <a href="#form" class="tariff-btn">Выбрать тариф</a>
+      </div>
+      <div class="tariff-card highlighted" data-aos="zoom-in" data-aos-delay="100">
+        <h3>Продвинутый</h3>
+        <ul>
+          <li>✅ Всё из базового</li>
+          <li>🔗 Новые связки</li>
+          <li>📚 Практика с наставником</li>
+          <li>🧭 Сопровождение до результата</li>
+        </ul>
+        <a href="#form" class="tariff-btn">Выбрать тариф</a>
+      </div>
+      <div class="tariff-card" data-aos="zoom-in" data-aos-delay="200">
+        <h3>VIP</h3>
+        <ul>
+          <li>👑 Наставничество</li>
+          <li>🧠 Углубленные уроки</li>
+          <li>🎁 Эксклюзивные бонусы</li>
+          <li>🏆 Персональный подход</li>
+        </ul>
+        <a href="#form" class="tariff-btn">Выбрать тариф</a>
+      </div>
+      <div class="tariff-card trip" data-aos="zoom-in" data-aos-delay="300">
+        <h3>VIP Trip</h3>
+        <ul>
+          <li>🌍 Отдых за наш счёт</li>
+          <li>🥂 Встреча с участниками</li>
+          <li>🛥 Элитный нетворкинг</li>
+        </ul>
+        <a href="#form" class="tariff-btn">Выбрать тариф</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="about-section">
+  <div class="about-grid">
+    <div class="about-text">
+      <h2 class="about-name">Стас</h2>
+      <p class="about-role">Автор и спикер</p>
+      <ul class="about-list">
+        <li><span class="dot"></span> На рынке P2P с 2021 года</li>
+        <li><span class="dot"></span> В 19 лет заработал свой первый миллион</li>
+        <li><span class="dot"></span> В 20 купил машину мечты</li>
+        <li><span class="dot"></span> Команда помогает выйти на $1000+ в месяц</li>
+      </ul>
+    </div>
+    <div class="about-photo-wrapper">
+      <div class="about-photo-frame">
+        <img src="self.png" alt="Костя" class="about-photo" />
+      </div>
+    </div>
+  </div>
+
+  <div class="about-highlight">
+    <div class="trophy">🏆</div>
+    <div class="highlight-box">
+      <h3>Ты в первую очередь покупаешь не мини-курс</h3>
+      <p>А многолетний опыт Стаса. Вместе быстрее, чем самому.</p>
+    </div>
+  </div>
+
+  <canvas id="about-canvas"></canvas>
+</section>
+<section class="faq-section" id="faq">
+  <canvas id="faq-canvas"></canvas>
+  <h2 class="faq-title" data-aos="fade-up">❓ Часто задаваемые вопросы</h2>
+  <div class="faq-container" data-aos="fade-up">
+    <div class="faq-item">
+      <button class="faq-question">Когда начинается курс?</button>
+      <div class="faq-answer">Сразу после оплаты вы получите доступ к материалам и сможете начать обучение.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Нужны ли предварительные знания?</button>
+      <div class="faq-answer">Нет, курс идеально подойдёт новичкам. Всё объясняется пошагово.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Сколько времени нужно в день?</button>
+      <div class="faq-answer">Достаточно уделять 1–2 часа в день, чтобы уже через 3 дня начать зарабатывать.</div>
+    </div>
+  </div>
+</section>
+<section class="slider-section">
+  <canvas id="reviews-canvas" class="background-canvas"></canvas>
+ <h2 class="section-title"><span class="arrow">➤</span> Отзывы участников</h2>
+  <div class="slider-container">
+    <button class="slider-arrow left" onclick="prevSlide()">&#10094;</button>
+
+    <div class="slider-track">
+      <div class="slide active">
+        <div class="slide-content">
+          <div class="slide-box a">
+            <h3>Точка A</h3>
+            <p>$0 в месяц</p>
+            <p>Долг 50 000 грн</p>
+          </div>
+          <div class="slide-image">
+            <img src="igor.jpg" alt="Игорь">
+            <p>Игорь, 7-й поток</p>
+        
+          </div>
+          <div class="slide-box b">
+            <h3>Точка B</h3>
+            <p>от $3000 в месяц</p>
+            <p>Снимает офис, формирует команду. Быстро принимает решения.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide-content">
+          <div class="slide-box a">
+            <h3>Точка A</h3>
+            <p>$200 в месяц</p>
+            <p>Нестабильная работа</p>
+          </div>
+          <div class="slide-image">
+            <img src="anna.jpg" alt="Анна">
+            <p>Анна, 4-й поток</p>
+            
+          </div>
+          <div class="slide-box b">
+            <h3>Точка B</h3>
+            <p>от $2500 в месяц</p>
+            <p>Переехала в Польшу, работает удалённо на себя</p>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+  <div class="slide-content">
+    <div class="slide-box a">
+      <h3>Точка A</h3>
+      <p>$0 в месяц</p>
+      <p>Ушёл с работы, долги</p>
+    </div>
+    <div class="slide-image">
+      <img src="review1.jpg" alt="Артём">
+      <p>Артём, 5-й поток</p>
+    </div>
+    <div class="slide-box b">
+      <h3>Точка B</h3>
+      <p>$4000+ в месяц</p>
+      <p>Стал куратором потока, помогает новичкам</p>
+    </div>
+  </div>
+</div>
+
+<div class="slide">
+  <div class="slide-content">
+    <div class="slide-box a">
+      <h3>Точка A</h3>
+      <p>Потерял 6000 грн</p>
+      <p>Боялся повторить ошибку</p>
+    </div>
+    <div class="slide-image">
+      <img src="review2.jpg" alt="Сергей">
+      <p>Сергей, 6-й поток</p>
+    </div>
+    <div class="slide-box b">
+      <h3>Точка B</h3>
+      <p>$3200 в месяц</p>
+      <p>Стабильный доход, работает из Турции</p>
+    </div>
+  </div>
+</div>
+
+<div class="slide">
+  <div class="slide-content">
+    <div class="slide-box a">
+      <h3>Точка A</h3>
+      <p>Зарплата 15 000 грн</p>
+      <p>Не хватало на аренду</p>
+    </div>
+    <div class="slide-image">
+      <img src="review3.jpg" alt="Иван">
+      <p>Иван, 2-й поток</p>
+    </div>
+    <div class="slide-box b">
+      <h3>Точка B</h3>
+      <p>$2500 в месяц</p>
+      <p>Переехал в Батуми, работает онлайн</p>
+    </div>
+  </div>
+</div>
+
+<div class="slide">
+  <div class="slide-content">
+    <div class="slide-box a">
+      <h3>Точка A</h3>
+      <p>Учился на юриста</p>
+      <p>Работал курьером</p>
+    </div>
+    <div class="slide-image">
+      <img src="review4.jpg" alt="Максим">
+      <p>Максим, 3-й поток</p>
+    </div>
+    <div class="slide-box b">
+      <h3>Точка B</h3>
+      <p>$3500+ в месяц</p>
+      <p>Автоматизировал сделки через Telegram-бота</p>
+    </div>
+  </div>
+</div>
+
+<div class="slide">
+  <div class="slide-content">
+    <div class="slide-box a">
+      <h3>Точка A</h3>
+      <p>После развода</p>
+      <p>2 кредита, без поддержки</p>
+    </div>
+    <div class="slide-image">
+      <img src="review5.jpg" alt="Ольга">
+      <p>Ольга, 1-й поток</p>
+    </div>
+    <div class="slide-box b">
+      <h3>Точка B</h3>
+      <p>$2800 в месяц</p>
+      <p>Создала свою мини-школу по P2P</p>
+    </div>
+  </div>
+</div>
+
+<div class="slide">
+  <div class="slide-content">
+    <div class="slide-box a">
+      <h3>Точка A</h3>
+      <p>Работал в магазине техники</p>
+      <p>Постоянные переработки</p>
+    </div>
+    <div class="slide-image">
+      <img src="review6.jpg" alt="Юрий">
+      <p>Юрий, 7-й поток</p>
+    </div>
+    <div class="slide-box b">
+      <h3>Точка B</h3>
+      <p>$3100 в месяц</p>
+      <p>Переехал в ЕС, работает на Binance и Bybit</p>
+    </div>
+  </div>
+</div>
+
+      <!-- Добавь ещё слайды, если нужно -->
+    </div>
+
+    <button class="slider-arrow right" onclick="nextSlide()">&#10095;</button>
+  </div>
+
+  <div class="slider-dots" id="sliderDots">
+    <!-- точки вставляются JS-ом -->
+  </div>
+</section>
+<footer style="background-color: #1a1a1a; color: white; padding: 40px 0; text-align: center;">
+  <p style="margin-bottom: 15px; font-size: 18px;">Связь со мной:</p>
+  <div style="display: flex; justify-content: center; gap: 25px; align-items: center; margin-bottom: 10px;">
+    <a href="https://instagram.com/grybovskystas" target="_blank" aria-label="Instagram" style="transition: transform 0.3s;">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram"
+           style="width: 28px; height: 28px; filter: invert(38%) sepia(97%) saturate(750%) hue-rotate(-30deg);">
+    </a>
+    <a href="https://t.me/grybovskystas" target="_blank" aria-label="Telegram" style="transition: transform 0.3s;">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/telegram.svg" alt="Telegram"
+           style="width: 28px; height: 28px; filter: invert(36%) sepia(98%) saturate(1650%) hue-rotate(180deg);">
+    </a>
+  </div>
+  <p style="font-size: 14px; color: #888;">© 2025 GRYBOVSKYSTAS. Все права защищены.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
