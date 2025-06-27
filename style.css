@@ -1060,3 +1060,58 @@ footer {
 .testimonial-box {
   background-color: #111 !important; /* или полупрозрачный вариант */
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .section-title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .slide-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .slide-box {
+    width: 90%;
+    margin-bottom: 16px;
+  }
+
+  .slide-image img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+
+  .pricing-card {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+button, .btn {
+  font-size: 18px;
+  padding: 12px 20px;
+  width: 100%;
+}
